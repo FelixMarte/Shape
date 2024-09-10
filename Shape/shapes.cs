@@ -56,7 +56,7 @@ class Program
             new Circle(3)
         };
 
-        foreach (var shape in shapes)
+        foreach (var shapes in shapes)
         {
             Console.WriteLine($"Área de {shape.GetType().Name}: {shape.CalculateSurface()}");
         }
